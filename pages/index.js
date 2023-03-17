@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -45,7 +46,7 @@ export default function Home() {
             src="/logodark.svg"
             alt="Next.js Logo"
             width={220}
-            height={45}
+            height={55}
             priority
           />
           {/* <div className={styles.thirteen}>
